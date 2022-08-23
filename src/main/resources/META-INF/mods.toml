@@ -1,0 +1,35 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[1,)"
+authors = "Kaisei Yokoyama"
+credits = "IPLAB"
+license = "MIT"
+
+[[mods]]
+modId = "harbinger"
+version = "0.1.0"
+displayName = "Harbinger"
+description = "実験用ソフトウェア"
+logoFile = "iplab_logo.png"
+license = "MIT"
+
+[[dependencies.harbinger]]
+modId = "forge"
+mandatory = true
+versionRange = "[34.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.harbinger]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.3,1.17)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.harbinger]]
+modId = "kotlinforforge"
+mandatory = false
+versionRange = "[1.15.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[modproperties.harbinger]
+catalogueImageIcon = "iplab_logo.png"

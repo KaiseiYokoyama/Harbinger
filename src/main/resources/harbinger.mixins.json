@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "jp.ac.tsukuba.cs.iplab.harbinger.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "harbinger.refmap.json",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
